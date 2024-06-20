@@ -1,0 +1,36 @@
+{
+	"name": "album-art-wallpaper-gen",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Album Art Wallpaper Generator",
+	"main": "dist/cli.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/cli.js"
+	},
+	"bin": {
+		"generate-wallpaper": "dist/cli.js"
+	},
+	"dependencies": {
+		"canvas": "^2.11.2",
+		"commander": "^8.3.0",
+		"glur": "^1.1.2",
+		"node-fetch": "^3.3.2",
+		"skia-canvas": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^16.18.98",
+		"tsx": "^4.15.5",
+		"typescript": "^5.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lexffe/album-art-wallpaper-gen.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lexffe/album-art-wallpaper-gen/issues"
+	},
+	"homepage": "https://github.com/lexffe/album-art-wallpaper-gen#readme"
+}
